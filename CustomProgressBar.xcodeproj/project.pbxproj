@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		1F75C2DD2C254BAD00FCB735 /* CustomProgressBarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F75C2DC2C254BAD00FCB735 /* CustomProgressBarApp.swift */; };
-		1F75C2DF2C254BAD00FCB735 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F75C2DE2C254BAD00FCB735 /* ContentView.swift */; };
 		1F75C2E12C254BB100FCB735 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F75C2E02C254BB100FCB735 /* Assets.xcassets */; };
 		1F75C2E42C254BB100FCB735 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F75C2E32C254BB100FCB735 /* Preview Assets.xcassets */; };
+		1F75C2EB2C254BE600FCB735 /* CustomeProgressBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F75C2EA2C254BE600FCB735 /* CustomeProgressBarView.swift */; };
+		1F75C2ED2C254C6B00FCB735 /* MultiSegmentProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F75C2EC2C254C6B00FCB735 /* MultiSegmentProgressBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1F75C2D92C254BAD00FCB735 /* CustomProgressBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomProgressBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F75C2DC2C254BAD00FCB735 /* CustomProgressBarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomProgressBarApp.swift; sourceTree = "<group>"; };
-		1F75C2DE2C254BAD00FCB735 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1F75C2E02C254BB100FCB735 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F75C2E32C254BB100FCB735 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1F75C2EA2C254BE600FCB735 /* CustomeProgressBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomeProgressBarView.swift; sourceTree = "<group>"; };
+		1F75C2EC2C254C6B00FCB735 /* MultiSegmentProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiSegmentProgressBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +54,8 @@
 			isa = PBXGroup;
 			children = (
 				1F75C2DC2C254BAD00FCB735 /* CustomProgressBarApp.swift */,
-				1F75C2DE2C254BAD00FCB735 /* ContentView.swift */,
+				1F75C2EA2C254BE600FCB735 /* CustomeProgressBarView.swift */,
+				1F75C2EC2C254C6B00FCB735 /* MultiSegmentProgressBar.swift */,
 				1F75C2E02C254BB100FCB735 /* Assets.xcassets */,
 				1F75C2E22C254BB100FCB735 /* Preview Content */,
 			);
@@ -137,7 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F75C2DF2C254BAD00FCB735 /* ContentView.swift in Sources */,
+				1F75C2EB2C254BE600FCB735 /* CustomeProgressBarView.swift in Sources */,
+				1F75C2ED2C254C6B00FCB735 /* MultiSegmentProgressBar.swift in Sources */,
 				1F75C2DD2C254BAD00FCB735 /* CustomProgressBarApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

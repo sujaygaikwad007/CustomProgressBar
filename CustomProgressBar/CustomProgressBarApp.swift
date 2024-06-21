@@ -11,7 +11,8 @@ import SwiftUI
 struct CustomProgressBarApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            //ContentView()
+            MultiSegmentProgressBar(currentIndex: 2, segmentCount: 5)
         }
     }
 }
